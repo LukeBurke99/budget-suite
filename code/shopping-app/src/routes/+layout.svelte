@@ -1,6 +1,8 @@
 <script lang="ts">
-	import '../app.css';
-	let { children } = $props();
+	import '@budget-suite/shared/app.css';
+	import type { Snippet } from 'svelte';
+
+	const { children }: { children: Snippet } = $props();
 </script>
 
 <div class="p-6">

@@ -8,7 +8,7 @@
 		"forceConsistentCasingInFileNames": true,
 		"isolatedModules": true, // This is a must for SvelteKit
 		"jsx": "preserve",
-		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"module": "ESNext",
 		"moduleResolution": "bundler",
 		// "moduleDetection": "force",
@@ -22,6 +22,7 @@
 		"paths": {
 			"$shared": ["code/shared/src/lib"]
 		},
+		"preserveSymlinks": true,
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
