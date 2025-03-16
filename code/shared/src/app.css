@@ -1,2 +1,2 @@
 @import 'tailwindcss';
-@source "./lib/**/*.{html,ts,js,svelte,css}";
+@source "./lib/**/*.{HTML,ts,js,svelte,css}";

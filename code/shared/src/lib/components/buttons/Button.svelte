@@ -7,7 +7,10 @@
 	const { color = 'primary', type = 'button', children, ...rest }: Props = $props();
 </script>
 
-<button {type} class={`rounded-lg px-4 py-2 shadow ${color}`} {...rest}>
+<button
+	{type}
+	{...rest}
+	class="cursor-pointer rounded-lg px-4 py-2 shadow {color} {rest.class ?? ''}">
 	{#if children}
 		{@render children()}
 	{/if}
