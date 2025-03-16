@@ -39,6 +39,7 @@ declare module '$env/static/private' {
 	export const COREPACK_ENABLE_DOWNLOAD_PROMPT: string;
 	export const COREPACK_ROOT: string;
 	export const DriverData: string;
+	export const EFC_29700: string;
 	export const EnableLog: string;
 	export const GIT_ASKPASS: string;
 	export const HOME: string;
@@ -147,6 +148,7 @@ declare module '$env/dynamic/private' {
 		COREPACK_ENABLE_DOWNLOAD_PROMPT: string;
 		COREPACK_ROOT: string;
 		DriverData: string;
+		EFC_29700: string;
 		EnableLog: string;
 		GIT_ASKPASS: string;
 		HOME: string;

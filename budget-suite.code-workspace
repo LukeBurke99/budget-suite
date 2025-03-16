@@ -1,5 +1,6 @@
 {
 	"folders": [
+		{ "name": "Core", "path": "../svelte-core" },
 		{ "name": "Shared", "path": "code/shared" },
 		{ "name": "Budget", "path": "code/budget-app" },
 		{ "name": "Shopping", "path": "code/shopping-app" },

@@ -1,4 +1,5 @@
-/* eslint-disable @typescript-eslint/typedef */
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
+
 import { includeIgnoreFile } from '@eslint/compat';
 import js from '@eslint/js';
 import prettier from 'eslint-config-prettier';
@@ -82,7 +83,7 @@ export default ts.config(
 					objectDestructuring: true,
 					parameter: true,
 					propertyDeclaration: true,
-					variableDeclaration: true
+					variableDeclaration: false
 				}
 			],
 			'@typescript-eslint/explicit-member-accessibility': [
