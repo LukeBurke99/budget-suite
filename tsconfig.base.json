@@ -19,9 +19,6 @@
 		"noUncheckedIndexedAccess": true,
 		// "noPropertyAccessFromIndexSignature": true, // use (obj["prop"]) instead of dot notation (obj.prop)
 		"noUnusedParameters": true,
-		"paths": {
-			"$shared": ["code/shared/src/lib"]
-		},
 		"preserveSymlinks": true,
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
